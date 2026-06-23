@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const siteUrl = 'https://code-world-bagel.com'
+const siteUrl = 'https://codeworldbagel.com'
 const pageUrl = `${siteUrl}/travel-language`
 
 useSeoMeta({

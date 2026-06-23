@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ['@nuxtjs/sitemap'],
   site: {
-    url: 'https://code-world-bagel.com',
+    url: 'https://codeworldbagel.com',
   },
   css: ['~/assets/css/main.css'],
   app: {
@@ -31,8 +31,8 @@ export default defineNuxtConfig({
             '@context': 'https://schema.org',
             '@type': 'Organization',
             name: '扣握貝果 CodeWorldBagel',
-            url: 'https://code-world-bagel.com',
-            logo: 'https://code-world-bagel.com/apple-touch-icon.png',
+            url: 'https://codeworldbagel.com',
+            logo: 'https://codeworldbagel.com/apple-touch-icon.png',
             description: '我們專門打造各種實用的應用程式，從設計到開發一手包辦，讓好點子快速落地。',
             contactPoint: {
               '@type': 'ContactPoint',

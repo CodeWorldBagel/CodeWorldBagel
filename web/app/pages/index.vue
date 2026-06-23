@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const siteUrl = 'https://code-world-bagel.com'
+const siteUrl = 'https://codeworldbagel.com'
 
 useSeoMeta({
   title: '扣握貝果 - CodeWorldBagel',

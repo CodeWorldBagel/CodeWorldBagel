@@ -87,7 +87,7 @@
 每個頁面的 `<script setup>` 必須包含：
 
 ```ts
-const siteUrl = 'https://code-world-bagel.com'
+const siteUrl = 'https://codeworldbagel.com'
 const pageUrl = `${siteUrl}/your-path`
 
 useSeoMeta({
@@ -122,7 +122,7 @@ useHead({
 
 ### ogImage 規則
 
-- 必須使用完整 URL（`https://code-world-bagel.com/images/...`），不可使用相對路徑
+- 必須使用完整 URL（`https://codeworldbagel.com/images/...`），不可使用相對路徑
 - 產品頁使用產品截圖，隱私權政策頁使用產品 icon
 
 ### 新增頁面 SEO checklist
@@ -131,3 +131,22 @@ useHead({
 2. `useHead` 含 canonical link
 3. 產品頁含對應 JSON-LD
 4. ogImage 使用完整 URL
+
+# Zeabur 部署
+
+網站部署於 Zeabur（Seoul server），採 direct deploy，部署目錄為 `web/`。
+
+- Project ID: `6a3a5520e41f9f1d19300a72`
+- Service ID: `6a3a56f6e41f9f1d19300b20`
+- Environment ID: `6a3a552079260dbd878437fb`
+
+更新部署（在 `web/` 目錄下執行）：
+
+```bash
+npx zeabur@latest deploy \
+  --project-id 6a3a5520e41f9f1d19300a72 \
+  --service-id 6a3a56f6e41f9f1d19300b20 \
+  --json
+```
+
+> 重新部署一定要帶 `--service-id`，否則會建立重複的新服務。
