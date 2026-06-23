@@ -62,11 +62,13 @@ useHead({
             <h3 class="product-name">熊好算</h3>
             <p class="product-desc">海外旅遊輕量化記帳，外幣換算、預算控管、多人協作一手掌握</p>
           </NuxtLink>
+          <!-- 已下架
           <NuxtLink to="/travel-language" class="product-card">
             <img src="/images/travel-language/icon.png" alt="熊好講 TravelLanguage" class="product-icon-img" />
             <h3 class="product-name">熊好講</h3>
             <p class="product-desc">旅遊日韓語情境對話學習，把旅遊對話變成好玩的破關練習</p>
           </NuxtLink>
+          -->
           <NuxtLink to="/drinkla" class="product-card">
             <img src="/images/drinkla/icon.png" alt="喝啦 DrinkLa" class="product-icon-img" />
             <h3 class="product-name">喝啦 DrinkLa</h3>
@@ -82,6 +84,7 @@ useHead({
             <h3 class="product-name">柴米油鹽</h3>
             <p class="product-desc">讓 Claude AI 陪你做台股模擬操盤實驗，純紀錄、不託管、不碰真錢</p>
           </NuxtLink>
+          <!-- 已下架
           <NuxtLink to="/rag-pilot" class="product-card">
             <div class="product-icon-wrapper">
               <img src="/images/rag-pilot/icon.png" alt="數據領航員 RAGPilot" class="product-icon-img" />
@@ -90,6 +93,7 @@ useHead({
             <h3 class="product-name">數據領航員 RAGPilot</h3>
             <p class="product-desc">協助你在大量政府公開資料當中快速找尋想要的內容並進行深度研究</p>
           </NuxtLink>
+          -->
         </div>
       </div>
     </section>

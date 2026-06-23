@@ -16,11 +16,11 @@ const error = ref('')
 
 const productLabels: Record<string, string> = {
   'travel-budget': '熊好算 TravelBudget',
-  'travel-language': '熊好講 TravelLanguage',
+  // 'travel-language': '熊好講 TravelLanguage', // 已下架
   'drinkla': '喝啦 DrinkLa',
   'travel-diary': '旅行日記 TravelDiary',
   'pantrystock': '柴米油鹽 PantryStock',
-  'rag-pilot': '數據領航員 RAGPilot',
+  // 'rag-pilot': '數據領航員 RAGPilot', // 已下架
   'custom': '客製化開發諮詢'
 }
 
@@ -91,10 +91,12 @@ async function handleSubmit() {
               <input v-model="selectedProducts" type="checkbox" value="travel-budget" />
               <span class="checkbox-label">熊好算 TravelBudget</span>
             </label>
+            <!-- 已下架
             <label class="form-checkbox">
               <input v-model="selectedProducts" type="checkbox" value="travel-language" />
               <span class="checkbox-label">熊好講 TravelLanguage</span>
             </label>
+            -->
             <label class="form-checkbox">
               <input v-model="selectedProducts" type="checkbox" value="drinkla" />
               <span class="checkbox-label">喝啦 DrinkLa</span>
@@ -107,10 +109,12 @@ async function handleSubmit() {
               <input v-model="selectedProducts" type="checkbox" value="pantrystock" />
               <span class="checkbox-label">柴米油鹽 PantryStock</span>
             </label>
+            <!-- 已下架
             <label class="form-checkbox">
               <input v-model="selectedProducts" type="checkbox" value="rag-pilot" />
               <span class="checkbox-label">數據領航員 RAGPilot</span>
             </label>
+            -->
             <label class="form-checkbox">
               <input v-model="selectedProducts" type="checkbox" value="custom" />
               <span class="checkbox-label">我有想法，想諮詢客製化開發</span>
