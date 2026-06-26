@@ -20,6 +20,7 @@ const productLabels: Record<string, string> = {
   'drinkla': '喝啦 DrinkLa',
   'travel-diary': '旅行日記 TravelDiary',
   'pantrystock': '柴米油鹽 PantryStock',
+  'teamcard': '團卡 TeamCard',
   // 'rag-pilot': '數據領航員 RAGPilot', // 已下架
   'custom': '客製化開發諮詢'
 }
@@ -108,6 +109,10 @@ async function handleSubmit() {
             <label class="form-checkbox">
               <input v-model="selectedProducts" type="checkbox" value="pantrystock" />
               <span class="checkbox-label">柴米油鹽 PantryStock</span>
+            </label>
+            <label class="form-checkbox">
+              <input v-model="selectedProducts" type="checkbox" value="teamcard" />
+              <span class="checkbox-label">團卡 TeamCard</span>
             </label>
             <!-- 已下架
             <label class="form-checkbox">

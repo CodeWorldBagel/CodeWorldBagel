@@ -19,7 +19,8 @@ const navItems: NavItem[] = [
       // { label: '熊好講 TravelLanguage', href: '/travel-language' }, // 已下架
       { label: '喝啦 DrinkLa', href: '/drinkla' },
       { label: '旅行日記 TravelDiary', href: '/travel-diary' },
-      { label: '柴米油鹽 PantryStock', href: '/pantrystock' }
+      { label: '柴米油鹽 PantryStock', href: '/pantrystock' },
+      { label: '團卡 TeamCard', href: '/teamcard' }
       // { label: '數據領航員 RAGPilot', href: '/rag-pilot' } // 已下架
     ]
   },
